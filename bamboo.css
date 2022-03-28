@@ -1,0 +1,86 @@
+.banner {
+    max-width: 100%;
+    background-size: cover;
+    min-height: 70vh;
+    position: relative;
+}
+.footer-bg{
+
+    background-attachment:fixed; 
+    min-width: 100%;
+    min-height: 250px;
+    position: relative;
+}
+#grass{
+    font-family: Oxygen, Arial, Helvetica, "Nimbus Sans L", sans-serif;
+    font-size: 34px;
+    line-height: 34px;
+    color: #4c5562;
+
+}
+
+#plant{
+    font-size: "DejaVu Sans";
+    font-size: 16px;
+    line-height: 20px;
+}
+@media (max-width: 1399.98px) { 
+    .banner{
+        min-height: 50vh;
+    }
+}
+
+@media (max-width: 1199.98px) { 
+    .banner{
+        min-height: 60vh;
+    }
+    .footer-bg{
+        min-height:300px;;
+
+    }
+
+}
+@media (max-width: 991.98px) { 
+    .banner {
+        min-height: 25vh;
+    }
+    .footer-bg{
+        min-height: 400px;
+
+    }
+    .ltd p{
+        font-size: 30px;
+    }
+
+}
+@media (max-width: 768.98px) { 
+    .banner{
+       min-height: 25vh;
+
+    }
+    .footer-bg{
+        min-height: 500px;;
+
+    }
+    .ltd p{
+        font-size: 20px;
+    }
+
+ 
+}
+@media (max-width: 575.98px) { 
+    .banner{
+        min-height: 16vh;
+    }
+    .footer-bg{
+        min-height: 600px;
+    }
+    .ltd p{
+        font-size: 12px;
+    }
+    .email p{
+        font-size: 10px;
+
+    }
+  
+ }
